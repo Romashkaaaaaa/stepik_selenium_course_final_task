@@ -30,7 +30,6 @@ def browser(request):
         browser = webdriver.Firefox(options = options_firefox)
     else:
         raise pytest.UsageError("--browser_name should be chrome or firefox")
-    browser.implicitly_wait(3)
     yield browser
     print("\nquit browser..")
     time.sleep(5)
