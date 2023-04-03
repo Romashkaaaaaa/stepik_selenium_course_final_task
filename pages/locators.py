@@ -15,4 +15,7 @@ class ProductPageLocators():
     ITEM_PRICE_ALERT = (By.CSS_SELECTOR, ".alert-noicon:nth-child(3) strong")
     ITEM_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
     SUCCESS_MESSAGE = (By.XPATH, "//div[@class='alertinner '][contains(.,'has been added to your basket.')]")
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 #Пустая строчка внизу
