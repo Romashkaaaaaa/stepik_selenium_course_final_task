@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
@@ -25,4 +24,4 @@ class BasePageLocators():
 class BasketPageLocators():
     TEXT_EMPTY_BASKET = (By.CSS_SELECTOR, "#content_inner > p")
     BASKET_ITEMS = (By.CSS_SELECTOR, ".basket-items")
-#Пустая строчка внизу
+#Пустая строчка снизу
